@@ -60,4 +60,6 @@ M1: Directly train; M2: Train with raw-generated-mixed scenarios; M3: Train with
 ### Source codes of environments:
 - `./gym_SimpleMGF/SimpleMGF_env/envs/PP_Agent.py`: Power flow agent made by Pandapower
 - `./gym_SimpleMGF/SimpleMGF_env/envs/SimpleMGF_env.py`: Environment for the RL task
-- The environment strictly adheres to the OpenAI Gymnasium API and has passed validation using Stable Baselines3.
+- `./gym_SimpleMGF/SimpleMGF_env/envs/case_data/scenario/*_scenario.xlsx`: Scenario files, including load, generation, and line outages
+- `./gym_SimpleMGF/SimpleMGF_env/envs/case_data/system/*_Data.xlsx`: Test system files, including bus data, line data, and generator data, etc.
+- The environment strictly adheres to the OpenAI Gymnasium API and has passed validation using Stable Baselines3
