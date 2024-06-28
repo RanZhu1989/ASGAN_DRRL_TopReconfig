@@ -1,0 +1,75 @@
+# Configuration file for GAN-RL algorithm on 7bus system
+
+# ---- General configuration ----
+ood_scenario_begin: 101
+latent_dim: &embed_size 8 # E
+training_data_rate: 0.7
+max_epoch: 5
+normalization_method: 'min-max'
+target_drop_rate: 0.2
+num_gen_per_latent: 1 #NOTE: need plus 1
+latent_used_rate_per_gen: 0.99
+maximal_gen_num_per_epoch: 100 #TODO: 100, 200, 300
+seed: 114
+
+# ---- Env configuration ----
+env_args:
+  id: 'SimpleMGF-v0'
+  system_data_file: 'Case7_Data.xlsx'
+  scenario_data_file: 'Case7_Scenario.xlsx'
+  v_min: 0.95
+  v_max: 1.05
+  static_penalty: 1.0
+  penalty_v_violation: 1.0
+  penalty_p_loss: 1.0
+  penalty_q_loss: 1.0
+  penalty_p_unbalance: 1.0
+  penalty_q_unbalance: 1.0
+
+# ---- Log folder configuration ----
+folder_args:
+  result_saving_dir: 'results' #parent folder for saving all results
+  test_name: 'GANRL'
+  model_saving_dir: 'models'
+  log_saving_dir: 'logs'
+  gen_data_saving_dir: 'gen_data'
+
+# ---- RL configuration ----
+# NOTE: specify the algorithm configs
+dqn_args:
+  episode_num: 500
+  lr: 1.0e-3
+  gamma: 0.9
+  epsilon: 0.1
+  mini_epsilon: 0.01
+  explore_decay_rate: 1.0e-4
+  buffer_capacity: 500000
+  replay_start_size: 100
+  replay_frequent: 2
+  target_sync_frequent: 50
+  batch_size: 64
+
+ppo_args:
+  episode_num: 500
+  actor_lr: 1.0e-4
+  critic_lr: 1.0e-3
+  gamma: 0.9
+  advantage_lambda: 0.95
+  clip_epsilon: 0.2
+  train_iters: 25
+  eval_iterations: 3
+
+# ---- Generation model configuration ----
+aegan_args:
+  embed_size : *embed_size
+  hidden_size : 8
+  lambda_term : 10.
+  rc_term : 0.1
+  epoch_num : 10000
+  d_iters : 1
+  g_iters : 3
+  rp_iters: 10000
+  batch_size : 32
+  lip_term : 0.1
+  norm_term :  0.1
+

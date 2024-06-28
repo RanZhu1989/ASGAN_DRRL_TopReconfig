@@ -1,0 +1,15 @@
+*.pyc
+.vscode/
+.VSCodeCounter/
+__pycache__/
+tempCodeRunnerFile.python
+*egg-info
+dist
+build
+results/
+*.log
+.VSCodeCounter/
+plot/
+misc
+utils/scenario_gen/*.csv
+!utils/scenario_gen/TRAIN_WPL.csv
