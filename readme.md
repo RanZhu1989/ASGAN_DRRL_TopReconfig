@@ -28,7 +28,7 @@ M1: Directly train; M2: Train with raw-generated-mixed scenarios; M3: Train with
 
 - To use other test systems, add system file in `./gym_SimpleMGF/SimpleMGF_env/envs/case_data/system` and scenario file in `./gym_SimpleMGF/SimpleMGF_env/envs/case_data/scenario`
 
-- You can edit the environment in `./gym_SimpleMGF/SimpleMGF_env/envs/SimpleMGF_env.py` (also welcome to refer to [our previous repository](\https://github.com/RanZhu1989/IL_Self_Healing))
+- You can edit the environment in `./gym_SimpleMGF/SimpleMGF_env/envs/SimpleMGF_env.py` (also welcome to refer to our previous [repository](https://github.com/RanZhu1989/IL_Self_Healing))
 
 - Known dependencies: 
   - **For DRRL:** Python (3.8.19), PyTorch (2.3.0), Gymnasium (0.28.1), Pandapower (2.14.6), numba (0.58.1), CUDA (12.1)
@@ -43,9 +43,9 @@ M1: Directly train; M2: Train with raw-generated-mixed scenarios; M3: Train with
 - `./algorithms/modules/`: Folder where various deep learning-based modules are stored, including:
   1) `AEGAN_TTN.py`: Class of the **TTN-enhanced AS-GAN**: Definitions, Training approach (Algorithm 1 in the paper), and adversarial generating method
   2) `AEGAN_Naive.py`: Class of the **Naive AS-GAN** (use MLP): Definitions, Training approach, and adversarial generating method
-  3) `EPD.py`: Class of the [**Autoencoder**-based adversarial scenario generation model](\https://github.com/irom-lab/DRAGEN)
-  4) `DQN.py`: Agent class of the **Deep Q-Network** (DQN) for the RL task. Source code is from our pervious [repository](\https://github.com/RanZhu1989/RL_PlayGround)
-  5) `PPO.py`: Agent class of the **Proximal Policy Optimization** (PPO) for the RL task. Source code is from our pervious [repository](\https://github.com/RanZhu1989/RL_PlayGround)
+  3) `EPD.py`: Class of the **Autoencoder**-based adversarial scenario generation [model](https://github.com/irom-lab/DRAGEN)
+  4) `DQN.py`: Agent class of the **Deep Q-Network** (DQN) for the RL task. Source code is from our pervious [repository](https://github.com/RanZhu1989/RL_PlayGround)
+  5) `PPO.py`: Agent class of the **Proximal Policy Optimization** (PPO) for the RL task. Source code is from our pervious [repository](https://github.com/RanZhu1989/RL_PlayGround)
 
 - `./algorithms/MOPs/`: Folder where the mathematical optimization implementation (coded by Julia) are stored, including:
   1) `mop_utils.jl`: Utility functions (mainly for data processing) for the optimization task
