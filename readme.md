@@ -13,12 +13,12 @@ We proposes a *distributionally robust reinforcement learning (**DRRL**)*-based 
 ![Implementation Approach](/pics/AEGAN.png)
 
 ## Comparison with other methods
-#### Comaprison with conventional RL methods
+### Comaprison with conventional RL methods
 M1: Directly train; M2: Train with raw-generated-mixed scenarios; M3: Train with only generated scenarios; M4: DRRL train with adversarial scenarios
 ![Comparison](/pics/Compare_OtherRL.png)
-#### Comaprison with mathematical optimization methods
+### Comaprison with mathematical optimization methods
 ![Comparison](/pics/Compare_MP.png)
-#### Comaprison with other adversarial scenario generation models
+### Comaprison with other adversarial scenario generation models
 ![Comparison](/pics/Compare_SGs.png)
 
 ## Getting started
