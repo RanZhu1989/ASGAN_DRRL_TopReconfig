@@ -1,9 +1,9 @@
 # Updates
 
 - (July, 2023) Upload codes for review. Many thanks for suggestions and supports!
+- (June, 2025) Congratulations for acception!
 
-
-# Adversarial Scenario Generation Integrated Distributionally Robust Reinforcement Learning for Survival of Critical Loads
+# [Adversarial Scenario Generation Integrated Distributionally Robust Deep Reinforcement Learning for Survival of Critical Loads](https://ieeexplore.ieee.org/abstract/document/11011524) 
 by [Ran Zhu](https://scholar.google.com/citations?hl=zh-CN&user=ETHzl_0AAAAJ), [Hongzhe Liu](https://scholar.google.com/citations?hl=zh-CN&user=M6fT730AAAAJ), [Mingyu Kang](https://scholar.google.com/citations?hl=zh-CN&user=2CGxd5sAAAAJ), [Wenwu Yu*](https://scholar.google.com/citations?hl=zh-CN&user=I7XxngUAAAAJ), and [Jin Zhao*](https://scholar.google.com/citations?hl=zh-CN&user=vV68wh8AAAAJ)
 
 ## Abstract
