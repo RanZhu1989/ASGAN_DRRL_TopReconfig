@@ -3,9 +3,13 @@
 - (July, 2023) Upload codes for review. Many thanks for suggestions and supports!
 - (June, 2025) Congratulations for acception!
 
-# [Adversarial Scenario Generation Integrated Distributionally Robust Deep Reinforcement Learning for Survival of Critical Loads](https://ieeexplore.ieee.org/abstract/document/11011524) 
+# Adversarial Scenario Generation Integrated Distributionally Robust Deep Reinforcement Learning for Survival of Critical Loads
 by [Ran Zhu](https://scholar.google.com/citations?hl=zh-CN&user=ETHzl_0AAAAJ), [Hongzhe Liu](https://scholar.google.com/citations?hl=zh-CN&user=M6fT730AAAAJ), [Mingyu Kang](https://scholar.google.com/citations?hl=zh-CN&user=2CGxd5sAAAAJ), [Wenwu Yu*](https://scholar.google.com/citations?hl=zh-CN&user=I7XxngUAAAAJ), and [Jin Zhao*](https://scholar.google.com/citations?hl=zh-CN&user=vV68wh8AAAAJ)
 
+## Citation information
+[Paper link](https://ieeexplore.ieee.org/abstract/document/11011524)
+
+R. Zhu, H. Liu, M. Kang, W. Yu and J. Zhao, "Adversarial Scenario Generation Integrated Distributionally Robust Deep Reinforcement Learning for Survival of Critical Loads," in IEEE Transactions on Smart Grid, doi: 10.1109/TSG.2025.3571349. 
 ## Abstract
 We proposes a *distributionally robust reinforcement learning (**DRRL**)*-based method for topology reconfiguration against extreme events, addressing the current limitation where scenario generation is treated as a separate task and lacks of feedback, leading to less robust policies against uncertainty events. The approach integrates an temporal-embed transformer networks (**TTNs**)-enhanced *adversarial scenario generative adversarial network (**AS-GAN**)* to dynamically generate adversarial scenarios, enhancing policy robustness. Validated on a 7-bus test system and the IEEE 123-bus system, the method shows superior performance compared to traditional reinforcement learning (RL) approaches.
 
