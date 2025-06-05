@@ -1,6 +1,6 @@
 # Updates
 
-- (July, 2023) Upload codes for review. Many thanks for suggestions and supports!
+- (July, 2024) Upload codes for review. Many thanks for suggestions and supports!
 - (June, 2025) Congratulations for acception!
 
 # Adversarial Scenario Generation Integrated Distributionally Robust Deep Reinforcement Learning for Survival of Critical Loads
